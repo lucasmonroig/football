@@ -1,0 +1,162 @@
+.container-fluid {
+  background-color: blue;
+  text-decoration: underline;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20%;
+  text-decoration: underline;
+}
+
+.nav-item {
+  padding-right: 50%;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-image: url("../imagenes/fondito.jpg");
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("../imagenes/fondito.jpg");
+  width: 100%;
+}
+
+#barras {
+  text-decoration: underline;
+}
+
+#producto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.container {
+  grid-template-columns: 30% 30% 40%;
+}
+
+#tabla-carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px black;
+  background-color: blanchedalmond;
+  border-radius: 2em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.header-carrito {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#compra-hecha {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#cajaCompra {
+  background-color: darkgrey;
+}
+
+#no.compra {
+  padding-right: 5px;
+  background-color: red;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: blanchedalmond;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  color: blanchedalmond;
+  background-color: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  background-color: black;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */

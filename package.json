@@ -1,0 +1,24 @@
+{
+  "name": "paginaderadio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "sass": "^1.32.13"
+  },
+  "devDependencies": {},
+  "description": "��#\u0000 \u0000F\u0000u\u0000t\u0000b\u0000o\u0000l\u0000F\u0000.\u0000C\u0000\r\u0000 \u0000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmonroig/FutbolF.C.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasmonroig/FutbolF.C/issues"
+  },
+  "homepage": "https://github.com/lucasmonroig/FutbolF.C#readme"
+}

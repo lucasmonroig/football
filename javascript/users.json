@@ -1,0 +1,20 @@
+{
+    "jugadores": [{
+
+        "nombre": "Pablo Perez",
+        "edad":25,
+        "puesto": "defensor"
+    },
+    {
+        "nombre": "Pablo Jerez",
+        "edad":28,
+        "puesto": "volante"
+
+    },
+    {
+        "nombre": "Pablo Gonzalez",
+        "edad":22,
+        "puesto": "delantero"
+    }
+    ]
+}
