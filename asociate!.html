@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Asociate!</title>
     <link rel="stylesheet" href="css/style.css" >
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
   <!--Navbar-->
@@ -25,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Plantel</a>
+                <a class="nav-link fw-bold" href="index.html">Plantel</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="asociate!.html">Asociate!</a>
+                <a class="nav-link fw-bold" href="asociate!.html">Asociate!</a>
               </li>
               
             </ul>
@@ -43,11 +41,11 @@
   <div class="py-5 text-center">
 
    <img src="imagenes/pelotaformulario.jpg" alt="pelotaformulario" width="100px" height="100px">
-     <h2>Se parte de nuestro club</h2>
-       <p class="lead"> Futbol F.C</p>
-     <li><span>Jubilados mensual: 100$ </span></li> 
-     <li><span>Adultos mensual: 300$ </span></li>
-     <li><span id="niños">niños mensual: 150$ </span></li>
+     <h2 class="mt-5">Se parte de nuestro club</h2>
+       <p class="lead fw-bold"> Futbol F.C</p>
+     <li><span class="text-decoration-underline">Jubilados mensual: 100$ </span></li> 
+     <li><span class="text-decoration-underline">Adultos mensual: 300$ </span></li>
+     <li><span id="niños" class="text-decoration-underline">niños mensual: 150$ </span></li>
 </div>
  </div>    
 <!--Formulario-->
@@ -107,9 +105,11 @@
          <div class="col-md-6">
            Nombre en la Tarjeta
              <input type="text"  name="nombretarjeta" class="form-control">
-             <small class="text-muted">
+            
+             <small class="text-muted fw-bold text-decoration-underline ">
                Nombre completo como aparece en la Tarjeta
              </small>
+           
              <div class="invalid-feedback">
               Dato Requerido
               </div>

@@ -44,21 +44,6 @@ body {
   grid-template-columns: 30% 30% 40%;
 }
 
-#tabla-carrito {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px black;
-  background-color: blanchedalmond;
-  border-radius: 2em;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
 .header-carrito {
   width: 100%;
   display: flex;
@@ -157,6 +142,11 @@ body {
 
 .socials a:hover i {
   color: aqua;
+}
+
+.parrafo {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

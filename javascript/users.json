@@ -3,18 +3,20 @@
 
         "nombre": "Pablo Perez",
         "edad":25,
-        "puesto": "defensor"
+        "puesto": "defensor",
+        "pictureURL": "imagenes/jug1.jpg"
     },
     {
         "nombre": "Pablo Jerez",
         "edad":28,
-        "puesto": "volante"
-
+        "puesto": "volante",
+        "pictureURL":"imagenes/jug2.jpg "
     },
     {
         "nombre": "Pablo Gonzalez",
         "edad":22,
-        "puesto": "delantero"
+        "puesto": "delantero",
+        "pictureURL": "./imagenes/jug3.jpg"
     }
     ]
 }

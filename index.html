@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="css/style.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <header>
@@ -25,20 +23,20 @@
               <div id="barras" class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a  class="nav-link active fw-bold" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a   class="nav-link" href="/plantel.html">Plantel </a>
+                    <a   class="nav-link fw-bold" href="/plantel.html">Plantel </a>
                   </li>
-                  <li  class="nav-item">
-                    <a  class="nav-link" href="asociate!.html">Asociate!</a>
+                  <li   class="nav-item">
+                    <a  class="nav-link fw-bold" href="asociate!.html">Asociate!</a>
                   </li>
                   
                 </ul>
               </div>
             </div>
           </nav>
-    <div class="container p-5"> 
+    <div  class="container p-5"> 
     
         
           <div id="carouselExampleInterval "  class="carousel slide" data-bs-ride="carousel">
@@ -66,7 +64,7 @@
         </div>
         <section class="container"> 
           
-       <h3>Compra los productos del club</h3>
+       <h3 class="mt-5 mb-5 text-decoration-underline">Compra los productos del club</h3>
         
       <div id="producto" >
         
@@ -76,12 +74,12 @@
     </div>
       <div>
      
-       <h2>Carrito de Compras</h2> 
-      <div class="header-carrito">
+       <h2 class="mt-5 text-decoration-underline">Carrito de Compras</h2> 
+      <div class="header-carrito mt-5">
       
-       <h2>Producto</h2> 
-       <h2>Cantidad</h2> 
-       <h2>Precio</h2> 
+       <h2 class="text-decoration-underline">Producto</h2> 
+       <h2 class="text-decoration-underline">Cantidad</h2> 
+       <h2 class="text-decoration-underline">Precio</h2> 
   
      
        
@@ -93,13 +91,14 @@
       <div id="carrito"></div>
        </div>
       <div id="compra-hecha">
+       <div class="container mt-5 mb-5">
+      <div id= "totalPrice" class="d-flex justify-content-start">        
+      </div>
+    
       <!-- Button trigger modal -->
-      <button onclick="limpiarCarrito()" id="no.compra" type="button" class="btn btn-danger me-3"  data-bs-target="#exampleModal">
-        Vaciar carrito
-      </button>
-<button onclick="limpiarCarrito()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Confirmar Compra
-</button>
+      <div id="botones">
+
+      </div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -114,12 +113,12 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button onclick="limpiarCarrito()" type="button" class="btn btn-primary" data-bs-dismiss="modal" >OK</button>
+        <button onclick="vaciarCarrito()" type="button" class="btn btn-primary" data-bs-dismiss="modal" >OK</button>
       </div>
     </div>
   </div>
 </div>
-     </div> <!--<button onclick="" class="btn btn-primary">Confirmar compra</buton> </div> -->
+     </div> 
      </section>
                 <footer>      
                   <div class="footer-content ">
