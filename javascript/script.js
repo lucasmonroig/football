@@ -69,7 +69,7 @@ class producto {
   //let remover = document.getElementById("tabla-carrito")
   carrito =[];
   totalCarrito =0;
-  this.cantidad =1;
+  this.cantida =1;
  // remover.parentNode.removeChild(remover)
   document.getElementById("totalPrice").innerHTML = ` 
          <div>$ ${totalCarrito} </div> 
@@ -168,59 +168,4 @@ function players () {
 
 
 }
-function vaciarCarrito (){
- 
 
-let remover = document.getElementById("tabla-carrito")
-
-remover.parentNode.removeChild(remover)
-
-
-}
-
-const voidButton= document.getElementById("no.compra")
-voidButton.addEventListener('click',voidButtonclicked);
-// Limpiar carrito
-
-
-
-/* <h3>${data.jugadores[h].nombre}</h3>
-            <p>Edad:  ${data.jugadores[h].edad}</p>
-            <p>Posicion: ${data.jugadores[h].puesto}</p>
-
-            </div>
-
-
-
- <div class="d-flex bd-highlight mb-3">
-  <div class="me-auto p-2 bd-highlight">Flex item</div>
-  <div class="p-2 bd-highlight">Flex item</div>
-  <div class="p-2 bd-highlight">Flex item</div>
-</div>
-
-
-
-
-
-             <div class="container d-flex justify-content-center ">
-                <div  class="p-3 mb-2 bg-secondary text-white ">
-                 
-                
-                <img   src= ${data.jugadores[h].pictureURL} > 
-                <div class="contenido d-flex justify-content-center mt-4">
-            <h3>${data.jugadores[h].nombre}</h3>
-            </div>
-            <div class="contenido d-flex justify-content-center">
-            <p>Edad:  ${data.jugadores[h].edad}</p>
-            </div>
-            <div class="contenido d-flex justify-content-center">
-            <p>Posicion: ${data.jugadores[h].puesto}</p>
-            </div>
-            
-            
-            </div>
-            </div>
-            </div>
-            </div>
-           
-            **/
